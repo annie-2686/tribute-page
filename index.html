@@ -16,8 +16,7 @@
     <h2>
       Coco Chanel </h2>
       <h3>1883-1971</h3>
-<br>
- <h4>By Annie | July 2022 </h4>
+ <h4> Tuesday, 5 July 2022 </h4>
     <div class="photococo"><img src="img/coco.jpg" alt="cocochanel" width="500" ></div>
     <p>
         <ul><li>
@@ -46,5 +45,25 @@
 
     </p>
     </div>
+<footer>
+<a href="https://github.com/annie-2686/tribute-page" 
+  class="gitlink"
+          title="Github"
+          target="_blank">Coded by Annie</a> </footer>
+    <script>
+      let now = new Date();
+
+      let h4 = document.querySelector("h4");
+
+      let date = now.getDate();
+     let year = now.getFullYear();
+     let months =["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug","Sep","Oct","Nov", "Dec"]; 
+     let month= months[now.getMonth()];
+     let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+     let day = days[now.getDay()];
+
+     h4.innerHTML= `${day}, ${date} ${month} ${year}` ;
+
+    </script>
   </body>
 </html>
