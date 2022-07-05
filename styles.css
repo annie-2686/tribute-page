@@ -5,7 +5,8 @@ h1 {
 }
 
 hr {
-  color: blue;
+  border-color: grey;
+  margin-bottom: 50px;
 }
 h2,
 h3 {
@@ -24,9 +25,11 @@ li {
   line-height: 20px;
   text-align: center;
   list-style: none;
+  color: grey;
 }
 
 .photococo {
   display: block;
   text-align: center;
+  margin-bottom: 50px;
 }
